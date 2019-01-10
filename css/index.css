@@ -37,3 +37,63 @@
 
 .mui-content {
   margin-top: 80px; }
+
+.slideTop {
+  width: 100%;
+  height: 120px; }
+  .slideTop h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    box-sizing: border-box; }
+  .slideTop p {
+    width: 100%;
+    height: 80px; }
+    .slideTop p span {
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 3px; }
+
+.slideType {
+  width: 100%;
+  height: 180px; }
+  .slideType h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    box-sizing: border-box; }
+  .slideType p {
+    width: 100%;
+    height: 140px; }
+    .slideType p span {
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 2px 5px;
+      margin: 3px; }
+
+.slideFriend {
+  width: 100%;
+  height: 90px; }
+  .slideFriend h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    box-sizing: border-box; }
+  .slideFriend p {
+    width: 100%;
+    height: 50px; }
+    .slideFriend p span {
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 3px; }
