@@ -120,3 +120,28 @@
 		}
 	}
 }
+
+.tab{
+	width: 100%;
+	height:45px;
+	background: palegoldenrod;
+	line-height: 45px;
+	display: flex;
+	li{
+		width: 50%;
+		height: 45px;
+		text-align: center;
+	}
+	.active{
+		background: pink;
+		color: red;
+	}
+}
+.conTwo{
+	display: none;
+}
+
+.mui-slider-handle{
+	display: flex;
+	justify-content: space-between;
+}

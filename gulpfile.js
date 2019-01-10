@@ -23,7 +23,12 @@ gulp.task('webserver',function(){
 	.pipe(server({
 		port:3696,
 		open:true,
-		livereload:true
+		livereload:true,
+		proxies:[
+			{
+				source:'/addBill',target:'http://localhost:3000/addBill'
+			}
+		]
 	}))
 });
 
