@@ -38,6 +38,9 @@
 .mui-content {
   margin-top: 80px; }
 
+.mui-off-canvas-left {
+  background: white; }
+
 .slideTop {
   width: 100%;
   height: 120px; }
