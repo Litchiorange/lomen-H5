@@ -7,14 +7,14 @@ var sass=require('gulp-sass');
 
 //编译sass
 gulp.task('sass',function(){
-	return gulp.src('./scss/index.scss')
+	return gulp.src('./scss/*.scss')
 	.pipe(sass())
 	.pipe(gulp.dest('css/'))
 });
 
 //监听sass
 gulp.task('watch',function(){
-	gulp.watch('./scss/index.scss',gulp.series('sass'));
+	gulp.watch('./scss/*.scss',gulp.series('sass'));
 });
 
 //服务
@@ -26,7 +26,13 @@ gulp.task('webserver',function(){
 		livereload:true,
 		proxies:[
 			{
-				source:'/addBill',target:'http://localhost:3000/addBill'
+				source:'/bill/addBill',target:'http://localhost:3000/bill/addBill',
+			},
+			{
+				source:'/bill/deteleBills',target:'http://localhost:3000/bill/deteleBills',
+			},
+			{
+				source:'/bill/BillDatas',target:'http://localhost:3000/bill/BillDatas',
 			}
 		]
 	}))

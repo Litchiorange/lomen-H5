@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 120px;
+  background: yellow; }
+  header h2 {
+    text-align: center;
+    line-height: 120px;
+    font-size: 36px; }
+
+section {
+  width: 100%;
+  flex: 1; }
+  section .ipt {
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid #ccc; }
+    section .ipt input {
+      width: 98%;
+      height: 100px;
+      margin: 10px;
+      font-size: 36px;
+      border: 0;
+      outline: none;
+      text-align: right; }
+  section .iconBox {
+    width: 100%;
+    height: 500px;
+    background: #f2f1fe; }
+
+footer {
+  width: 100%;
+  height: 120px; }
+  footer .save {
+    width: 95%;
+    height: 100px;
+    background: yellow;
+    border-radius: 100px;
+    margin: 10px 2%;
+    font-size: 36px; }

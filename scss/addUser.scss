@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	// overflow: hidden;
+	font-size: 30px;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+header{
+	width: 100%;
+	height: 120px;
+	background: yellow;
+	display: flex;
+	line-height: 120px;
+// 	padding: 0 15px;
+// 	box-sizing: border-box;
+	display: flex;
+	span{
+		width:50%;
+		text-align: center;
+	}
+	.active{
+		background: #000;
+		color: white;
+		display:block;
+	}
+	
+}
+section{
+	width: 100%;
+	flex:1;
+	background: white;
+	overflow: hidden;
+	overflow-y: scroll;
+	.ipt{
+		width: 100%;
+		height:120px;
+		background:yellow;
+		input{
+			width: 98%;
+			height: 100px;
+			margin: 10px;
+			font-size: 36px;
+			border: 0;
+			border-bottom: 2px solid #000;
+			background: yellow;
+			outline: none;
+			text-align: center;
+		}
+	}
+	.contentOut{
+		width: 100%;
+		height:auto;
+		// background: #F2F2F2;
+		.picBox{
+			display: flex;
+			width: 100%;
+			height: auto;
+			flex-wrap: wrap;
+			text-align: center;
+			dl{
+				width: 20%;
+				margin: 15px;
+				text-align: center;
+				font-size: 36px;
+				background: #f2f1fe;
+				padding: 30px;
+				dt{
+					font-size: 60px;
+				}
+				dd{
+					font-size: 30px;
+					margin-top: 20px;
+				}
+			}
+			.activeType{
+				color: yellow;
+			}
+			.addIcon{	
+				background: #f2f2f2;
+				font-size: 34px;
+			}
+		}
+	}
+	.contentIn{
+		width: 100%;
+		height:auto;
+		display: none;
+		// background: #F2F2F2;
+		.picBox{
+			display: flex;
+			width: 100%;
+			height: auto;
+			flex-wrap: wrap;
+			text-align: center;
+			dl{
+				width: 20%;
+				margin: 15px;
+				text-align: center;
+				font-size: 36px;
+				background: #f2f1fe;
+				padding: 30px;
+				dt{
+					font-size: 60px;
+				}
+				dd{
+					font-size: 30px;
+					margin-top: 20px;
+				}
+			}
+			.activeType{
+				color: yellow;
+			}
+			.addIcon{	
+				background: #f2f2f2;
+				font-size: 34px;
+			}
+		}
+	}
+}
+footer{
+	width: 100%;
+	height: 400px;
+	.keyBoad{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		flex-wrap:wrap;
+		span{
+			width: 19%;
+			height: 100px;
+			// background: #f2f2f2;
+			text-align: center;
+			line-height: 100px;
+			font-size: 36px;
+			border: 1px solid #000;
+			margin: 1px 3px;
+			box-shadow: 1px 1px 1px #ccc;
+		}
+		.sure{
+			width: 19%;
+			height: 100px;
+			font-size: 36px;
+		}
+	}
+}
